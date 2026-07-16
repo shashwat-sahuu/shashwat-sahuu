@@ -1,4 +1,4 @@
-[README (4).md](https://github.com/user-attachments/files/30099663/README.4.md)
+[README (5).md](https://github.com/user-attachments/files/30099708/README.5.md)
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Shashwat%20Sahu&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Machine%20Learning%20%7C%20Full%20Stack&descAlignY=55&descSize=18" width="100%"/>
@@ -112,6 +112,22 @@ Binary classifier distinguishing sonar signals reflected from rocks vs. metal mi
 Trained a Logistic Regression model on the UCI Sonar dataset using a stratified 90/10 train-test
 split to preserve class balance, then built a single-instance inference pipeline for classifying
 new sonar readings in real time.
+
+</details>
+
+<details>
+<summary><b>🧠 Breast Cancer Classification — PyTorch</b></summary>
+<br/>
+
+Feedforward neural network classifying tumors as malignant or benign on the Wisconsin Breast Cancer dataset.
+
+| Stack | Scale | Performance | Security | Impact | Repository |
+|---|---|---|---|---|---|
+| PyTorch, Scikit-learn, FastAPI, Gradio | 569 samples, 30 features | 97.4% test accuracy, no significant overfitting | Standardized inference pipeline | Deployed demo on Hugging Face Spaces | [View Repo](https://github.com/shashwat-sahuu) |
+
+Built a feedforward neural network (Linear-ReLU-Linear-Sigmoid) using StandardScaler
+preprocessing, trained with the Adam optimizer and BCE loss over 100 epochs. The production
+version adds SHAP explainability, FastAPI inference, and Gunicorn multi-worker deployment.
 
 </details>
 
