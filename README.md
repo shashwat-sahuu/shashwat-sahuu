@@ -1,4 +1,3 @@
-(https://github.com/user-attachments/files/30099708/README.5.md)
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Shashwat%20Sahu&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Machine%20Learning%20%7C%20Full%20Stack&descAlignY=55&descSize=18" width="100%"/>
